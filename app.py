@@ -3,7 +3,7 @@ import pickle
 
 # Load your best trained GradientBoostingRegressor model
 model_path = 'best_model.sav'
-model_file = "best_model.sav"
+# model_file = "best_model.sav"
 with open(model_path, 'rb') as model_file:
     model = joblib.load(model_file)
 
